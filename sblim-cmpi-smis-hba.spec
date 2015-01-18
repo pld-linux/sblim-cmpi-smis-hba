@@ -13,7 +13,6 @@ BuildRequires:	hbaapi-devel >= 2.2
 BuildRequires:	sblim-cmpi-base-devel
 BuildRequires:	sblim-cmpi-devel
 BuildRequires:	sblim-indication_helper-devel
-Requires:	%{name}-libs = %{version}-%{release}
 Requires:	sblim-cmpi-base
 Requires:	sblim-sfcb
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
